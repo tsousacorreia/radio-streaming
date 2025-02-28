@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rádio Streaming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <header class="text-center py-6 bg-gray-800 shadow-lg">
+        <h1 class="text-3xl font-extrabold tracking-wide">📻 Rádio Streaming</h1>
+    </header>
+
+    <main class="max-w-2xl mx-auto p-6">
+        <h2 class="text-lg font-semibold mb-4 text-gray-300">Escolha uma rádio:</h2>
+        <ul id="radioList" class="space-y-4"></ul>
+    </main>
+
+    <div class="fixed bottom-0 left-0 w-full bg-gray-800 p-4 text-center shadow-lg">
+        <p id="radioName" class="text-sm font-semibold mb-2 text-gray-300">Nenhuma rádio selecionada</p>
+        <audio id="radioPlayer" controls class="w-full rounded-lg bg-gray-700">
+            Seu navegador não suporta áudio.
+        </audio>
+    </div>
+
+    <script src="scripts/radios.js"></script>
+    <script src="scripts/app.js" defer></script>
+</body>
+</html>
