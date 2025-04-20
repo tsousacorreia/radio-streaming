@@ -38,7 +38,7 @@ Passos para Rodar o Projeto
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/radio-streaming.git
+git clone https://github.com/tsousacorreia/radio-streaming.git
 
 Acesse a pasta do projeto:
 
