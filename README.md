@@ -18,9 +18,9 @@ Atualmente, a aplicação conta com uma lista pré-determinada de rádios e um t
 
 🛠️ Tecnologias Utilizadas
 
-Frontend: HTML, Tailwind CSS, JavaScript
+Frontend: HTML, CSS, JavaScript
 
-Estilização: Tailwind CSS para um design moderno e responsivo
+Estilização: CSS para um design moderno e responsivo
 
 Lógica: JavaScript para manipulação do player e da lista de rádios
 
